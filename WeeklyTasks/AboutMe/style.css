@@ -1,0 +1,191 @@
+@font-face {
+    font-family: orbitron;
+    src: url("Lexend_Mega,Orbitron/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+body{
+    background-color: #1B1833;
+}
+h1{
+    color: #F29F58;
+    font-size: 60px;
+    margin: 20px;
+    font-family: orbitron;
+}
+
+
+.years{
+    color: #F29F58;
+    font-size: 60px;
+    margin: 20px;
+    font-family: orbitron;
+    display: flex;
+    position: absolute;
+    top: 0vh;
+    left: 75vw;
+}
+
+h2{
+    color: #1B1833;
+    font-size: 45px;
+    margin: 20px;
+    font-family: orbitron;
+}
+
+h3{
+    color: #F29F58;
+    font-size: 40px;
+    margin: 20px;
+    font-family: orbitron;
+}
+
+p{
+    color: #1B1833;
+    font-size: 20px;
+    margin: 20px;
+    font-family: orbitron;
+}
+     
+.introSection{
+    display:grid;
+    grid-template-columns: 1fr 1fr; 
+    height: 75vh;
+    width: 97vw;
+
+}
+
+.leftDiv{
+    background-color: #AB4459;
+    margin: 20px;
+    border-radius: 7px;
+    text-align: right;
+    filter:drop-shadow(10px 10px 0px #9d2c42);
+}
+
+
+.rightDiv{
+    background-color:#F29F58;
+    margin: 20px;
+    border-radius: 7px;
+    filter:drop-shadow(10px 10px 0px #AB4459);
+}
+.rightDiv img{
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width: 50%;
+    filter:drop-shadow(10px 10px 0px #1B1833);
+}
+
+
+
+.hobbiesSection{
+    display: block;
+    position: realtive;
+    text-align: center;
+    top: 10vh;
+    left: 5vw;
+    scale: 0.8;
+    justify-content: center;
+}
+
+.traditionalArt{
+    position: relative;
+    color: #F29F58;
+    font-size: 20px;
+    margin: 20px;
+    font-family: orbitron;
+    opacity: 0;
+    left: 110px;
+
+}
+
+    .traditionalArt img{
+        display: flex;
+        position: relative;
+        left: 400px;
+        top: 50px;
+        width: 25%;
+        filter:drop-shadow(10px 10px 0px #AB4459);
+    }
+
+.modelling{
+    position: relative;
+    right: 200px;
+    color: #F29F58;
+    font-size: 20px;
+    margin: 20px;
+    font-family: orbitron;
+    opacity: 0;
+}
+
+    .modelling img{
+        display: flex;
+        position: relative;
+        left: 400px;
+        top: 50px;
+        width: 30%;
+        filter:drop-shadow(10px 10px 0px #AB4459);
+
+    }
+
+
+.climbing{
+    display: flex;
+    position: relative;
+    color: #F29F58;
+    font-size: 20px;
+    margin: 20px;
+    font-family: orbitron;
+    opacity: 0;
+    right: -800px;
+    width: 45%;
+    height: 100%;
+}
+
+    .climbing img{
+        display: flex;
+        position: relative;
+        top: 50px;
+        right: 200px;
+        width: 60%;
+        filter:drop-shadow(10px 10px 0px #AB4459);
+
+    }
+
+.hiking{
+    position: relative;
+    right: 200px;
+    color: #F29F58;
+    font-size: 20px;
+    margin: 20px;
+    font-family: orbitron;
+    opacity: 0;
+}
+    .hiking img{
+        display: flex;
+        position: relative;
+        left: 400px;
+        top: 50px;
+        width: 30%;
+        filter:drop-shadow(10px 10px 0px #AB4459);
+
+    }
+
+
+.funFacts{
+    background-color: #F29F58;
+    margin: 20px;
+    border-radius: 7px;
+    filter:drop-shadow(10px 10px 0px #AB4459);
+
+}
+
+.outro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+

@@ -1,0 +1,36 @@
+*{
+    /* border: 1px solid rgb(255, 0, 43); */
+    background-color: #cce9f7;
+}
+
+
+header{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3535da;
+}
+#monkeyContainer canvas{
+    width: 5vw;
+    height: 10vh;
+    filter: drop-shadow(5px 5px 3px #3535da)
+
+}
+#duckContainer canvas{
+    position: relative;
+    top: -37vh;
+    left: 55vw;
+    width: 5vw;
+    height: 10vh;
+    filter: drop-shadow(5px 5px 3px #3535da)
+}
+
+#lampContainer canvas{
+    position: relative;
+    top: -35vh;
+    left: 30vw;
+    width: 5vw;
+    height: 10vh;
+    filter: drop-shadow(5px 5px 3px #3535da)
+
+}
+
